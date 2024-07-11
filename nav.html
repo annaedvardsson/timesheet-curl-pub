@@ -1,0 +1,13 @@
+<nav>
+    <a href="/">Hem</a><br>
+
+    <?php if ($_SERVER['REQUEST_URI'] != '/part1.php') : ?>
+    <a href="/part1.php">Del 1 - Lista tidsrapporter</a><br>
+    <?php endif; ?>
+
+    <?php if ($_SERVER['REQUEST_URI'] != '/part2.php') : ?>
+    <a href="/part2.php">Del 2 - Skapa tidsrapport</a><br>
+    <?php endif; ?>
+
+    <hr>
+</nav>
